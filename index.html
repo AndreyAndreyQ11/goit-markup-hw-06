@@ -55,7 +55,93 @@
             </li>
           </ul>
         </address>
+        <svg class="header-solid-menu" width="24" height="24">
+          <use href="./images/icons.svg#icon-solid-menu"></use>
+        </svg>
       </div>
+      <!-- Burger Menu -->
+      <section class="visually-hidden is-open">
+        <div class="burder-container">
+          <button type="button" class="pop-up-container-close">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="burder-navigation">
+            <ul class="burder-list">
+              <li class="burder-item">
+                <a href="./index.html" class="burder-item-a pseudo-burder-focus"
+                  >Studio</a
+                >
+              </li>
+              <li class="burder-item">
+                <a href="" class="burder-item-a">Portfolio</a>
+              </li>
+              <li class="burder-item">
+                <a href="" class="burder-item-a">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="burder-address">
+            <ul class="burder-address-list">
+              <li class="burder-address-item pseudo-burder-focus">
+                <a href="tel:+110001111111" class="burder-address-item-a"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="burder-address-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="burder-address-item-a"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="burder-messenger-list">
+            <li class="burder-messenger-item">
+              <a
+                class="burder-messenger-item-a"
+                href="https://www.instagram.com/"
+              >
+                <svg class="burder-messenger-item-icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burder-messenger-item">
+              <a
+                class="burder-messenger-item-a"
+                href="https://www.twitter.com/"
+              >
+                <svg class="burder-messenger-item-icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burder-messenger-item">
+              <a
+                class="burder-messenger-item-a"
+                href="https://www.facebook.com/"
+              >
+                <svg class="burder-messenger-item-icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burder-messenger-item">
+              <a
+                class="burder-messenger-item-a"
+                href="https://www.linkedin.com/"
+              >
+                <svg class="burder-messenger-item-icon" height="24" width="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
 
     <main>
@@ -129,7 +215,7 @@
         </div>
       </section>
       <!-- Our Team -->
-      <section class="our-team bg-cloud">
+      <section class="our-team">
         <div class="container">
           <h2 class="our-team-heading">Our Team</h2>
           <ul class="our-team-list">
@@ -352,8 +438,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/menu.jpg"
                   alt="menu"
@@ -373,8 +459,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/smartphoneQr.jpg"
                   alt="smartphoneQr"
@@ -394,8 +480,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/laptop.jpg"
                   alt="laptop"
@@ -415,8 +501,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/interior.jpg"
                   alt="interior"
@@ -436,8 +522,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/smartphone.jpg"
                   alt="smartphone"
@@ -459,8 +545,8 @@
             <li class="our-portfolio-items">
               <div class="our-portfolio-items-container">
                 <img
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                   class="our-portfolio-items-img"
                   src="./images/ourPortfolio/woman.jpg"
                   alt="woman"
@@ -481,7 +567,7 @@
       </section>
     </main>
 
-    <footer class="footer bg-navyblue">
+    <footer class="footer">
       <div class="footer-container container">
         <div class="footer-banner">
           <a href="./index.html" class="footer-banner-logo"
@@ -564,7 +650,7 @@
       </div>
     </footer>
 
-    <!-- <div class="pop-up">
+    <div class="pop-up">
       <div class="pop-up-container">
         <button type="button" class="pop-up-container-close">
           <svg class="close-icon" width="8" height="8">
@@ -653,6 +739,6 @@
           <button class="form-button" type="submit">Submit</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
